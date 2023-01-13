@@ -7,3 +7,19 @@
 3. Salve os arquivos do Estado no Google Cloud Storage.
 
 Submeta o print de cada etapa de configuração do Pipeline .
+
+---
+
+Steps:
+
+- Create new Repository (if using local / Source Repositories)
+- Follow steps to add code to your repository (or cloud shell)
+
+- Enable Cloud Build API (and set Billing Account)
+- Configure trigger
+	- Nome
+	- Região
+	- Push to a branch / main
+	- Autodetect
+	- Repository
+	- Require Aproval Yes/No
